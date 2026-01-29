@@ -466,6 +466,7 @@ int main(int argc, char** argv)
     while (!quit)
     {
         quit |= wl_display_roundtrip(display) == -1;
+	sleep(60);
     }
 
 end:
